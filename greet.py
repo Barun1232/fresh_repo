@@ -43,7 +43,7 @@ while True:
                       "Enter yes/no"]:
                   print(e)
         else:
-            print("Please enter a valid number for the temperature!")
+            print("Please enter a valid number!")
 
         
         
