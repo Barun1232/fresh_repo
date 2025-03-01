@@ -45,7 +45,18 @@ while True:
                   print(e)
         else:
             print("Please enter a valid number!")
-            continue
+            break
+
+# Level 8 
+# Check if a number is positive, negative, or zero
+
+user_input = float(input("Enter a number: "))
+if user_input > 0:
+    print("Positive")
+elif user_input < 0:
+    print("Negative")
+else:
+    print("Zero")
 
  
 
