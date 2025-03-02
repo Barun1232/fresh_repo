@@ -34,12 +34,12 @@ while True:
             else:
                 raise ValueError("Enter yes/no")
     except ValueError as e:
-        if str(e) in ["Enter a operation",
+        if str(e) in ["Enter an operation",
                       "Enter yes/no"]:
             print(e)
         else:
             print("Please enter a valid number!")
             
     except ZeroDivisionError:
-        print("You can't divided by zero")
+        print("You can't divide by zero")
         continue
